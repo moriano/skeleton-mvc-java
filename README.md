@@ -12,6 +12,11 @@ single Controller, Service, Model and DAO which is enough to start.
 Usage
 -------------
 
+```
+git clone https://github.com/moriano/skeleton-mvc-java.git
+cd skeleton-mvc-java.git
+mvn install
+```
 
 
 Limitations
