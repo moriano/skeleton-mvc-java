@@ -39,12 +39,7 @@ public class GodController {
     @RequestMapping(value = "/get/{id}", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public String get(@PathVariable int id) throws Exception {
-        while (true) {
 
-            if (false) {
-                break;
-            }
-        }
         God god = this.godService.getById(id);
         String json = jsonMapper.writeValueAsString(god);
 
