@@ -14,14 +14,16 @@ Usage
 
 ```
 git clone https://github.com/moriano/skeleton-mvc-java.git
-cd skeleton-mvc-java.git
+cd skeleton-mvc-java
 mvn install
 mvn jetty:run
 ```
 
 Open a browser and point it to
 
+```
 http://localhost/skeleton/god/list
+```
 
 
 Limitations
