@@ -24,7 +24,7 @@ CREATE TABLE `gods` (
   `name` varchar(256) DEFAULT NULL,
   `age` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 INSERT INTO gods (name, age) VALUES ( 'Odin', 50);
 INSERT INTO gods (name, age) VALUES ( 'Thor', 25);
