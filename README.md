@@ -25,7 +25,6 @@ Open a browser and point it to
 http://localhost/skeleton/god/list
 ```
 
-
 Limitations
 -------------
 
