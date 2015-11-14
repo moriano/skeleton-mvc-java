@@ -1,0 +1,11 @@
+machine:
+  java:
+    version: openjdk7
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+
+general:
+  artifacts:
+    - "skeleton.war" # The war file!
