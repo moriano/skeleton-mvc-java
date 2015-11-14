@@ -1,19 +1,12 @@
 machine:
   java:
     version: openjdk7
-checkout:
-  post:
-    - git submodule sync
-    - git submodule update --init
-
 general:
   artifacts:
-    - "target/skeleton.war" # War!
-
+    - "target/skeleton.war"
 test:
   post:
     - mvn clean install
-
 deployment:
   master:
     branch: master
