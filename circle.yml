@@ -8,8 +8,6 @@ checkout:
 
 general:
   artifacts:
-    - "skeleton.war" # The war file!
-    - "/home/ubuntu/skeleton-mvc-java/target/skeleton.war" # War!
     - "target/skeleton.war" # War!
 
 notify:
