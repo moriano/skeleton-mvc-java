@@ -10,6 +10,10 @@ general:
   artifacts:
     - "target/skeleton.war" # War!
 
+test:
+  post:
+    - mvn clean install
+
 deployment:
   master:
     branch: master
