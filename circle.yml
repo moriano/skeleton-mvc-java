@@ -13,6 +13,5 @@ general:
 deployment:
   master:
     branch: master
-    owner: moriano
     commands:
-      - curl -X POST https://manageacloud.com/trigger/2s1aegf4kedc7n6ihnnblcpo23
+      - curl \-X POST https://manageacloud.com/trigger/2s1aegf4kedc7n6ihnnblcpo23
