@@ -11,3 +11,8 @@ general:
     - "skeleton.war" # The war file!
     - "/home/ubuntu/skeleton-mvc-java/target/skeleton.war" # War!
     - "target/skeleton.war" # War!
+
+notify:
+  webhooks:
+    # A list of hook hashes, containing the url field
+    - url: https://manageacloud.com/trigger/2s1aegf4kedc7n6ihnnblcpo23
